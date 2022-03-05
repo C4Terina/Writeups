@@ -7,13 +7,14 @@ I ended up trying only the SPF and DMARC records as I didn't know what to put as
 
 
 
-![](images/2ndhalf.png)
+![2ndhalf](https://user-images.githubusercontent.com/68371827/156899135-4b0d3d5b-8245-46dd-ae9d-ef8358c95ffc.png)
+
 
 ...which was half the flag 
 
 and then the other half...
 
-![](images/1sthalf.png)
+![1sthalf](https://user-images.githubusercontent.com/68371827/156899129-7e89b6ea-4af3-4010-9062-31ab1c2b0759.png)
 
 
 so finally the flag is `HTB{RIP_SPF_Always_2nd_F1ddl3_2_DMARC}`
