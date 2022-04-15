@@ -80,7 +80,10 @@ First we enter read-write mode and we seek the ```0x00400968``` memory address w
 After that we will change the conditional and check the result with pdf: 
 
 ![image](https://user-images.githubusercontent.com/68371827/163559644-3b400073-4714-4932-af52-35edfbc4bcf9.png)
+
+If you read [x86 instruction set](https://www.aldeid.com/wiki/X86-assembly/Instructions/nop) you will see that that 0x90 is the opcode for code so we use ``wx`` to write memory and ``wa`` to assemble the asm . 
 ![image](https://user-images.githubusercontent.com/68371827/163559900-2ce22388-5874-429f-9d77-0da147c32135.png)
+
 
 Success! Now we will exit r2 by entering ```q``` because we will not need it anymore. Let's test our modifications: 
 
